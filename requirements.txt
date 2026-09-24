@@ -1,0 +1,49 @@
+# --- CSL-Core: Formally Verified Policy Engine (v1.7.0) ---
+csl-core>=0.2.0
+# ----------------------------------------------------------
+
+# --- LLM / Agent Framework ---
+langchain-classic>=1.0.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langsmith>=0.4.0
+
+# --- Core AI/ML ---
+openai==1.105.0
+econml==0.16.0
+lightgbm==4.6.0
+scikit-learn==1.6.1
+shap==0.48.0
+statsmodels==0.14.5
+scipy==1.14.0
+numpy==2.2.6
+pandas==2.3.2
+pandas-ta==0.4.71b0
+
+# --- Visualization ---
+matplotlib==3.9.2
+seaborn==0.13.2
+altair==5.5.0
+streamlit==1.49.1
+pillow==10.4.0
+svgwrite==1.4.3
+
+# --- Trading / Data ---
+alpaca-trade-api==3.2.0
+pyarrow==21.0.0
+tiktoken==0.11.0
+
+# --- Formal Verification ---
+z3-solver==4.15.3.0
+
+# --- Utilities ---
+python-dotenv==1.1.1
+requests==2.32.5
+beautifulsoup4==4.13.5
+rich==13.9.4
+tqdm==4.67.1
+pydantic==2.7.4
+pydantic-settings==2.10.1
+PyYAML==6.0.1
